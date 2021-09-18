@@ -18,15 +18,14 @@ const app = Vue.createApp({
       */
       correctAnswer: {
         stage1: {
-          q1: 'BIRD',
+          q1: '4735',
         },
         stage2: {
           q1: '4',
           // q2: 'えええ',
           // q3: 'おおお'
         },
-         
-        stage３: {
+        stage3: {
           q1: '3',
           // q2: 'かかか',
           // q3: 'ききき',
@@ -45,18 +44,20 @@ const app = Vue.createApp({
           // false, // 2-2
           // false, // 2-3
         ],
-        stage３: [
+        stage3: [
           false, // 3-1
           // false, // 3-2
           // false, // 3-3
         ]
       },
+
       /* ステージの問題が全て正解かどうか */
       clear: {
         stage1: false,
         stage2: false,
         stage3: false,
       },
+
       /* 次のステージを表示するかどうか
       *  最終ステージはページを遷移するので設定不要です。
       */
