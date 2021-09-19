@@ -242,6 +242,9 @@ Youtube貼り付けここまで -->
               <p class="text-center">監視カメラを停止することに成功した！<br>
                 美術品の価値に関する一枚の書類が落ちている。<br>
                 これらを解くことで、どの美術品がどのぐらいの価値なのかがわかるはずだ！</p>
+               <figure class="image__container">
+                    <img src="assets/images/question4.png" alt="">
+                  </figure>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -261,9 +264,7 @@ Youtube貼り付けここまで -->
                 <!-- STAGE4-1　ここから -->
                 <div class="column">
                   <!-- STAGE4-1問題セクション　ここから -->
-                  <figure class="image__container">
-                    <img src="assets/images/question4.png" alt="">
-                  </figure>
+                 
                   <!-- STAGE4-1問題セクション　ここまで -->
                   <!-- STAGE4-1解答入力セクション　ここから -->
                   <answer-input v-bind:correct="correctAnswer['stage4']['q1']" v-on:answer-input="answerInput($event, 'stage4', 1)"></answer-input>
